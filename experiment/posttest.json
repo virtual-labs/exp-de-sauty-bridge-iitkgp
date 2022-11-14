@@ -2,46 +2,46 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "How many joints are there in the wrist of the Movemaster RM-501 robot?",
+      "question": "In AC bridges, the Wagner earth devices are used to:",
       "answers": {
-        "a": "2",
-        "b": "4",
-        "c": "3",
-        "d": "1"
+        "a": "Remove all the earth capacitances from the bridge circuit",
+        "b": "Remove harmonics",
+        "c": "Reduce error caused by stray electric field",
+        "d": "All of these"
       },
       "explanations": {
-        "a": "You have choosen option (a). The answer is correct",
-        "b": "You have choosen option (b). The answer is incorrect. The correct option is (a).",
-        "c": "You have choosen option (c). The answer is incorrect. The correct option is (a).",
-        "d": "You have choosen option (d). The answer is incorrect. The correct option is (a)."
+        "a": "You have choosen option (a). The answer is incorrect. The correct option is (d).",
+        "b": "You have choosen option (b). The answer is incorrect. The correct option is (d).",
+        "c": "You have choosen option (c). The answer is incorrect. The correct option is (d).",
+        "d": "You have choosen option (d). The answer is correct"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "difficulty": "beginner"
     },
     {
-      "question": "What is the Px positional value of the Movemaster robot in a configuration [60, -45, -47, 0, 0]?",
+      "question": "The most useful ac bridge for comparing capacitances of two air capacitors is ......... bridge.",
       "answers": {
-        "a": "182.282 cm",
-        "b": "320.917 cm",
-        "c": "563.377 cm",
-        "d": "-120.219 cm"
+        "a": "Schering",
+        "b": "De Sauty",
+        "c": "Wien series",
+        "d": "Wien parallel"
       },
       "explanations": {
-        "a": "You have choosen option (a). The answer is correct",
-        "b": "You have choosen option (b). The answer is incorrect. The correct option is (a).",
-        "c": "You have choosen option (c). The answer is incorrect. The correct option is (a).",
-        "d": "You have choosen option (d). The answer is incorrect. The correct option is (a)."
+        "a": "You have choosen option (a). The answer is incorrect. The correct option is (b).",
+        "b": "You have choosen option (b). The answer is correct",
+        "c": "You have choosen option (c). The answer is incorrect. The correct option is (b).",
+        "d": "You have choosen option (d). The answer is incorrect. The correct option is (b)."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "What is the range of wrist Roll?",
+      "question": "Which of the following instrument may be used for extending the range of instruments?",
       "answers": {
-        "a": " \\pm 90",
-        "b": " \\pm 140 " ,
-        "c": " \\pm 120" ,
-        "d": " \\pm 180 " 
+        "a": "Shunt and multipliers",
+        "b": "Current transformers" ,
+        "c": "Potential transformers" ,
+        "d": "All of the above" 
       },
       "explanations": {
         "a": "You have choosen option (a). The answer is incorrect. The correct option is (d).",
@@ -50,6 +50,23 @@
         "d": "You have choosen option (d). The answer is correct."
       },
       "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "For measuring current at high frequency, the instrument should be used is:",
+      "answers": {
+        "a": "Moving iron instrument",
+        "b": "Electrostatic instrument" ,
+        "c": "Thermocouple instrument" ,
+        "d": "None of the above" 
+      },
+      "explanations": {
+        "a": "You have choosen option (a). The answer is incorrect. The correct option is (c).",
+        "b": "You have choosen option (b). The answer is incorrect. The correct option is (c).",
+        "c": "You have choosen option (c). The answer is correct.",
+        "d": "You have choosen option (d). The answer is incorrect. The correct option is (c)."
+      },
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]

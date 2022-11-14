@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the number of degree of freedom (DOF) in Movemaster RM-501?",
+      "question": "At 2 MHz, the resonance is obtained with a resonating capacitance value of 12 pF and at 400 kHz, the resonance is obtained with resonating capacitance value of 320 pF. Then the self capacitance of the coil is ",
       "answers": {
-        "a": "5",
-        "b": "6",
-        "c": "7",
-        "d": "None of this"
+        "a": "0.62 pF",
+        "b": "0.83 pF",
+        "c": "1.2 pF",
+        "d": "1.5 pF"
       },
       "explanations": {
         "a": "You have choosen option (a). The answer is correct",
@@ -19,20 +19,20 @@
       "difficulty": "beginner"
     },
     {
-      "question": "What is the maximum paylod of the Robot?",
+      "question": "A De Sauty's (Modified) bridge is used to measure the capacitance of a sample of sheet chage at 2kHz. At balance, arm ab is a resistor R<sub>1</sub>=300Ω in series with a capacitor C<sub>1</sub>=0.21`uF`; arm bc is R<sub>3</sub>=600Ω;&nbsp;arm cd is R<sub>4</sub>=200Ω and arm da is a resistor R<sub>2</sub>=1kΩ in series with a unknown capacitor C<sub>2</sub>. Capacitor C<sub>1</sub> has internal resistance r<sub>1</sub>=60.2Ω. Calculate the effective impedence of the unknown capacitor under test conditions.<br/><p style=\"text-align:center\"><img src=\"images/quiz1.jpg\" style=\"width:550px;height:450px\"></p>",
       "answers": {
-        "a": "2 kg",
-        "b": "1.2 kg",
-        "c": "1 kg",
-        "d": "1.5 kg"
+        "a": "146.28Ω",
+        "b": "333.33Ω",
+        "c": "149.89Ω",
+        "d": "289.65Ω"
       },
       "explanations": {
-        "a": "You have choosen option (a). The answer is incorrect. The correct option is (b).",
-        "b": "You have choosen option (b). The answer is correct.",
-        "c": "You have choosen option (c). The answer is incorrect. The correct option is (b).",
-        "d": "You have choosen option (d). The answer is incorrect. The correct option is (b)."
+        "a": "You have choosen option (a). The answer is incorrect. The correct option is (c).",
+        "b": "You have choosen option (b). The answer is incorrect. The correct option is (c).",
+        "c": "You have choosen option (c). The answer is correct.",
+        "d": "You have choosen option (d). The answer is incorrect. The correct option is (c)."
       },
-      "correctAnswer": "b",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]

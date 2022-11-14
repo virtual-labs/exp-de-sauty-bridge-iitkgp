@@ -1,2 +1,2 @@
 ## Objective
-- To determine accurate Quality Factor of an unknown coil.
+- In this bridge, a capacitance is measured with a standard variable capacitance.
