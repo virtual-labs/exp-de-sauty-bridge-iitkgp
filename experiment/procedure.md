@@ -16,4 +16,6 @@
 							<br /> 
 							<p>5) If "NULL" is achieved, switch to 'Measure Capacitor Value' tab and click on 'Simulate'. Observe calculated values of unknown capacitance (C<sub>2</sub>) and unknown internal resistance (r<sub>2</sub>) of the capacitor.</p>
 							<br /> 
-							<p>6) Also observe the Dissipation factor of the unknwown capacitor which is defined as  `omega*C*r`. Where,  `omega=2*pi*f`.</p>
+							<p>6) Also observe the Dissipation factor of the unknwown capacitor which is defined as  ω*C*r. Where,  $$\omega=2*pi*f $$
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
