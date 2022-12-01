@@ -19,23 +19,29 @@ This bridge is a modification of De Sauty's bridge.
 ***Fig 1: Circuit diagram for measurement of capacitance by De Sauty's Modified Bridge***
 </div>
 
-<p>	`C_1`= A standard capacitor.</p><br>
-							<p>`C_2`= A capacitor whose capacitance has to be measured.</p><br>
-							<p> `r_1`,`r_2`= Representing losses of their corresponding capacitors.</p><br>
-							<p>`R_4`,`R_3`= Non-inductive resistances.</p><br>
-							<p>`R_1`,`R_2`= They are connected in series with `C_1` and `C_2` respectively.</p><br>
+<p>C<sub>1</sub>= A standard capacitor.</p>
+<p>C<sub>2</sub>= A capacitor whose capacitance has to be measured.</p>
+<p>r<sub>1</sub>,r<sub>2</sub>= Representing losses of their corresponding capacitors.</p>
+<p>R<sub>4</sub>,R<sub>3</sub>= Non-inductive resistances.</p>
+<p><p>R<sub>1</sub>,R<sub>2</sub>= They are connected in series with C<sub>1</sub> and C<sub>2</sub> respectively.</p>
 At balance condition,
-<p style="text-align: center;">`(R_1 + r_1 + 1/ (jomegaC_1))*R_4 = (R_2 + r_2 + 1/ (jomegaC_2))*R_3` </p><br>
-<p style="text-align: center;"> `(r_1 + R_1)*R_4 + R_4/(jomegaC_1) = (r_2 + R_2)*R_3 + R_3/(jomegaC_2)`</p>
+
+$$ (R_1 + r_1 + \frac{1}{j \omega C_1})*R_4 = (R_2 + r_2 + \frac{1}{j \omega C_2})*R_3 $$
+
+$$ (r_1 + R_1)*R_4 + \frac{R_4}{j \omega C_1} = (r_2 + R_2)*R_3 +  \frac{R_3}{j \omega C_2} $$
 
 
 Equating both the real and imaginary parts and separate them,
 
-`R_4/R_3 = (R_2 + r_2)/(R_1 +r_1)`<br>
-							<p style="text-align: center;">`C_2 = (R_3/R_4)*C_1`</p><br>
-							<p style="text-align: center;">`C_2 = ((R_1 + r_1)/(R_2 + r_2))*C_1`</p><br>
-							<p style="text-align: center;">`C_2 /C_1 = (R_1 + r_1)/(R_2 + r_2) = R_3 /R_4` ...&nbsp;eq.(1)</p><br>
-              <p>The balance may be obtained by variation of  resistances `R_1`, `R_2`, `R_3` and `R_4`.</p><br><br>
+$$ \frac{R_4}{R_3} = \frac{R_2 + r_2}{R_1 +r_1} $$
+
+$$ C_2 = (\frac{R_3}{R_4})*C_1 $$
+
+$$ C_2 = (\frac{R_1 + r_1}{(R_2 + r_2})*C_1 $$
+
+$$ \frac{C_2}{C_1} = \frac{R_1 + r_1}{R_2 + r_2} = \frac{R_3}{R_4} ...eq.(1) $$
+
+              The balance may be obtained by variation of  resistances <p>R<sub>1</sub>, <p>R<sub>2</sub>, <p>R<sub>3</sub> and <p>R<sub>4</sub>.
               
  ***Phasor Diagram:***
  <div align="center">
