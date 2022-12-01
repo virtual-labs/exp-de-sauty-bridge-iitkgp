@@ -41,8 +41,10 @@ $$ C_2 = (\frac{R_1 + r_1}{(R_2 + r_2})*C_1 $$
 
 $$ \frac{C_2}{C_1} = \frac{R_1 + r_1}{R_2 + r_2} = \frac{R_3}{R_4} ...eq.(1) $$
 
-              The balance may be obtained by variation of  resistances <p>R<sub>1</sub>, <p>R<sub>2</sub>, <p>R<sub>3</sub> and <p>R<sub>4</sub>.
-              
+The balance may be obtained by variation of  resistances
+
+$$ R_1, R_2, R_3 and R_4 $$
+
  ***Phasor Diagram:***
  <div align="center">
 
@@ -50,16 +52,25 @@ $$ \frac{C_2}{C_1} = \frac{R_1 + r_1}{R_2 + r_2} = \frac{R_3}{R_4} ...eq.(1) $$
 
 ***Fig 1: Phasor diagram for measurement of capacitance by De Sauty's Modified Bridge***
 </div>
-The angles `delta_1` and `delta_2` are the phase angles of `C_1` and `C_2` respectively. The dissipation factors for corresponding capacitors are <br>
-`D_1 =tan(delta_1) =omegaC_1r_1`   &nbsp;&nbsp;    and   &nbsp;&nbsp;   `D_2 =tan(delta_2) =omegaC_2r_2` <br>
+
+$$ The angles  \delta_1  and \delta_2  are the phase angles of  C_1 and C_2  respectively. The dissipation factors for corresponding capacitors are $$
+
+$$ D_1 = tan(\delta_1) = \omega C_1 r_1    and    D_2 =tan(\delta_2) =\omega C_2 r_2 $$
+
 <p>From the eq.(1),</p><br>
-<p>`C_2 /C_1 = (R_1 + r_1)/(R_2 + r_2)`</p><br>
-<p>`C_2R_2 + C_2r_2 = C_1R_1 + C_1r_1`</p><br>
-<p>Multiplying both sides by `omega`,</p><br>
-<p>`omegaC_2R_2+ omegaC_2r_2 = omegaC_1R_1 + omegaC_1r_1`</p><br>
-<p>`D_2 - D_1 = omega*C_2*(R_1*R_4/R_3 - R_2)`</p><br>
+
+$$ \frac{C_2}{C_1} = \frac{R_1 + r_1}{R_2 + r_2} $$
+
+$$ C_2 R_2 + C_2r_2 = C_1R_1 + C_1r_1 $$
+
+<p>Multiplying both sides by  ω
+
+$$ \omega C_2R_2+ \omega C_2r_2 = \omega C_1R_1 + \omega C_1r_1 $$
+  
+$$ D_2 - D_1 = \omega* C_2*(R_1*\frac{R_4}{R_3} - R_2) $$
 
 herefore, if the dissipation factor of  one of the capacitors is known, the dissipation factor for the other can be determined .
-
+  
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
  
