@@ -43,7 +43,7 @@ $$ \frac{C_2}{C_1} = \frac{R_1 + r_1}{R_2 + r_2} = \frac{R_3}{R_4} ...eq.(1) $$
 
 The balance may be obtained by variation of  resistances
 
-$$ R_1, R_2, R_3 and R_4 $$
+$$ R_1, R_2, R_3 \ and \ R_4 $$
 
  ***Phasor Diagram:***
  <div align="center">
@@ -53,9 +53,9 @@ $$ R_1, R_2, R_3 and R_4 $$
 ***Fig 1: Phasor diagram for measurement of capacitance by De Sauty's Modified Bridge***
 </div>
 
-$$ The angles  \delta_1  and \delta_2  are the phase angles of  C_1 and C_2  respectively. The dissipation factors for corresponding capacitors are $$
+$$ The angles \ \delta_1 \ and \delta_2 \ are \ the  \ phase \ angles \ of \ C_1 \ and \ C_2 \ respectively. \ The \ dissipation \ factors \ for \ corresponding \ capacitors \ are $$
 
-$$ D_1 = tan(\delta_1) = \omega C_1 r_1    and    D_2 =tan(\delta_2) =\omega C_2 r_2 $$
+$$ D_1 = tan(\delta_1) = \omega C_1 r_1  \  and \   D_2 =tan(\delta_2) =\omega C_2 r_2 $$
 
 <p>From the eq.(1),</p><br>
 
