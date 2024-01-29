@@ -50,7 +50,7 @@ $$ R_1, R_2, R_3 \ and \ R_4 $$
 
 ![Rm501 Figure](images/picde.jpg)
 
-***Fig 1: Phasor diagram for measurement of capacitance by De Sauty's Modified Bridge***
+***Fig 2: Phasor diagram for measurement of capacitance by De Sauty's Modified Bridge***
 </div>
 
 $$ The angles \ \delta_1 \ and \delta_2 \ are \ the  \ phase \ angles \ of \ C_1 \ and \ C_2 \ respectively. \ The \ dissipation \ factors \ for \ corresponding \ capacitors \ are $$
