@@ -46,14 +46,25 @@ function simulate_rc()
 		var C1=parseFloat(document.getElementById('C1').value);
 		var R3=parseFloat(document.getElementById('R3').value);
 		var R4=parseFloat(document.getElementById('R4').value);
-	    document.f1.c333.value = ((R3/R4)*C1) * 1000000;
+	    
 		var R1=parseFloat(document.getElementById('R1').value);
 		var r1=parseFloat(document.getElementById('r1').value);
 		var R2=parseFloat(document.getElementById('R2').value);
-		var p=(R3/R4)*(R1+r1);
-		var R21= (R2 < p) ? document.getElementById('R2').value: alert('select a greater value of R2');
-		document.f1.r333.value = (((R3/R4)*(R1+r1))-R21);
-		document.f1.rd33.value = (w * ((R3/R4)*C1) * (((R3/R4)*(R1+r1))-R21)) ;  
+		var p=(R4/R3)*(R1+r1);
+		
+		//var R21= (R2 < p) ? document.getElementById('R2').value:Math.abs(R2);//(5+Math.random(-1,1));
+		
+		document.f1.c333.value = ((R3/R4)*C1) * 1000000;
+
+		if(document.getElementById('R2').value<p){
+		document.f1.r333.value = (((R4/R3)*(R1+r1))-R2);
+		}
+		if(document.getElementById('R2').value>p){
+		document.f1.r333.value = (5+Math.random(-1,1));
+		}
+		
+		//document.f1.rd33.value = (w * ((R3/R4)*C1) * (((R4/R3)*(R1+r1))-R21)) ; 
+		document.f1.rd33.value = (w * ((R3/R4)*C1) * document.f1.r333.value);		
 	}
 	else
 	{
@@ -73,15 +84,19 @@ function changeImage() {
 		var image = document.getElementById('myImage');
 		var im5= document.getElementById('v1');
 		var im6= document.getElementById('f1');
+		
 		if (image.src.match("s1")) {
 			image.src = "./images/s2.png"; cf3=1;
 			im5.setAttribute('readonly', 'readonly'); im6.setAttribute('readonly', 'readonly');
 			check=1;
 			execute_ckt();
-		} else {
+		} 
+		
+		else {
 			image.src = "./images/s1.png"; cf3=0;
 			im5.removeAttribute('readonly'); im6.removeAttribute('readonly');
-			document.f1.A1.value = 0; check=0;
+			document.f1.A1.value = 0;
+			check=0;
 			perform_meter();
 			document.f1.A2.value='';
 			document.f1.c333.value='';
@@ -90,8 +105,8 @@ function changeImage() {
 			
 		}
 	}
-	function execute_ckt()
-	{
+	function execute_ckt(){
+		
 		if(check==1)
 		{
 			document.f1.A1.value=0;
@@ -99,13 +114,14 @@ function changeImage() {
 			var  z=[], z2=[], z1=[], i=[], i2=[], i1=[], dv=[], dvv;
 			f1=parseFloat(document.getElementById('f1').value);
 			w= 2*3.141*f1;
-			r2[0]=parseFloat(document.getElementById('r333').value); r2[1]=0;
+			//r2[0]=parseFloat(document.getElementById('r333').value); r2[1]=0;
+			r2=[5,0];
 			r1=[5,0];
 			R3[0]=parseFloat(document.getElementById('R3').value); R3[1]=0; 
 			R4[0]=parseFloat(document.getElementById('R4').value); R4[1]=0; 
 			R1[0]=parseFloat(document.getElementById('R1').value); R1[1]=0; 
 			R2[0]=parseFloat(document.getElementById('R2').value); R2[1]=0; 
-			C1[1]=(-1 / (w * parseFloat(document.getElementById('C1').value))); C1[0]=0; 
+			C1[1]=(-1 / ((w * parseFloat(document.getElementById('C1').value)) * 0.000001)); C1[0]=0; 
 			C2[1]=(-1 / ((w * parseFloat(document.getElementById('C2').value)) * 0.000001)); C2[0]=0; 
 			v1[0]=parseFloat(document.getElementById('v1').value); v1[1]=0; 
 			
@@ -121,6 +137,73 @@ function changeImage() {
 			document.f1.A1.value= dvv.toPrecision(5);
 			document.f1.A2.value= dvv.toPrecision(5);
 			perform_meter();
+			
+			
+			////EDITED FOR TESTING 
+			/* document.f1.A1.value=0;
+			var f1=parseFloat(document.getElementById('f1').value);
+			w= parseFloat(2*3.141*f1);
+			var r1=5;
+			var r2=5;
+			var R3=parseFloat(document.getElementById('R3').value); 
+			var R4=parseFloat(document.getElementById('R4').value); 
+			var R1=parseFloat(document.getElementById('R1').value); 
+			var R2=parseFloat(document.getElementById('R2').value);
+			
+			var C1=(-1 / ((w * parseFloat(document.getElementById('C1').value)) * 0.000001)); 
+			var C2=(-1 / ((w * parseFloat(document.getElementById('C2').value)) * 0.000001));
+			var v1=parseFloat(document.getElementById('v1').value); 
+			
+			var z1=(C1+r1+R1+R3);
+			var z2=(C2+r2+R2+R4);
+			var z=((z1*z2)/(z1+z2));
+			//i=div(v1,z); alert(i);
+			var i1=(((v1/z)*z2)/(z1+z2)); 
+			var i2=(((v1/z)*z1)/ (z1+z2));
+			
+			dv=Math.abs((i1*R3)-(i2*R4));
+			//alert(dv[0]); alert(dv[1]);
+			dvv=(Math.sqrt(dv)*1000) ;
+			document.f1.A1.value= dvv.toPrecision(5);
+			document.f1.A2.value= dvv.toPrecision(5);
+			perform_meter(); */
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			///check
+			console.log("z1=" + z1);
+			console.log("z2=" + z2);
+			
+			console.log("z=" + z);
+			console.log("i1=" + i1);
+			console.log("i2=" + i2);
+			console.log("dvv=" + dvv);
+			console.log("dv=" + dv);
 		}
 		
 	}
