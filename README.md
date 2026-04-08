@@ -7,7 +7,7 @@
   <b>Discipline | <b> Electrical Engineering 
 :--|:--|
 <b> Lab | <b> **Analog Signals, Network and Measurement Laboratory Virtual Lab**
-<b> Experiment|     <b> **Q meter Experiment**
+<b> Experiment|     <b> **Measurement of Capacitance by De Sauty's (Modified) bridge**
 
 
 <b>Name of Developer | <b> **Prof. A.K Deb**
